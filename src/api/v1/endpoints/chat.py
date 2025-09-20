@@ -1,7 +1,6 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, HTTPException
 from src.models.requests import ChatRequest
 from src.models.responses import ChatResponse
-from src.services.rag_service import RAGService
 from datetime import datetime
 import uuid
 
