@@ -61,6 +61,15 @@ OPENAI_API_KEY=tu_api_key_aqui
 # Security
 SECRET_KEY=tu_secret_key_aqui
 
+# Object Storage (Cloudflare R2)
+R2_ACCOUNT_ID=tu_account_id_de_r2
+R2_ACCESS_KEY_ID=tu_access_key
+R2_SECRET_ACCESS_KEY=tu_secret_key
+R2_BUCKET_NAME=tu_bucket
+# Opcional dependiendo de tu setup
+R2_PUBLIC_BASE_URL=https://tu-dominio-publico.example.com
+R2_ENDPOINT_URL=https://tu_account_id.r2.cloudflarestorage.com
+
 # Opcional: personalizar otros valores
 DEBUG=True
 HOST=0.0.0.0
